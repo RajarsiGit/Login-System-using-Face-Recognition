@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0, user-scalable=1" />
+   <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+   <meta http-equiv="Pragma" content="no-cache" />
+   <meta http-equiv="Expires" content="0" />
+    <link rel="stylesheet" href="/static/bootstrap.min.css">
+    <link rel="stylesheet" href="/static/style.css">
+    <title>Registration</title>
+</head>
+<body>
+   <h1>Register Yourself</h1>
+   <form method="POST" accept-charset="utf-8" autocomplete="off">
+      <div id="container">
+          <video width="1280" height="720" id="video" autoplay></video>
+      </div>
+      {{ form.hidden_tag() }}
+      {{ form.email.label }} {{ form.email() }} {% for error in form.email.errors %}{{ error }}{% endfor %}<br>
+      {{ form.url.label }} {{ form.url() }} {% for error in form.url.errors %}{{ error }}{% endfor %}<br>
+      {{ form.submit() }}
+   </form>
+   <canvas id="myCanvas" width="320" height="240" hidden></canvas>
+   <script type="text/javascript", src="/static/js/main.js"></script>
+  </body>
+</html>

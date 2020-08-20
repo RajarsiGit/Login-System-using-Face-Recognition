@@ -1,0 +1,124 @@
+body
+{
+	font-family: "Segoe UI", Arial, sans-serif;
+	background-color: #ffffff;
+}
+h1
+{
+	background-color: #009688;
+	width: 95%;
+	max-width: 600px;
+	color: white;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-top: 0;
+	text-align: center;
+	font-size: 30px;
+	padding: 10px;
+}
+h3
+{
+	color: black;
+	font-size: 20px;
+	margin-top: 3px;
+	text-align: center;
+}
+form {
+	border: 3px solid #f1f1f1;
+	width: 95%;
+	max-width: 600px;
+	margin: auto;
+	left: 50%;
+	right: 50%;
+	padding: 20px 8px;
+}
+label{
+	font-family: inherit;
+	font-size: 14px;
+	font-weight: bold;
+	width: 95%;
+	margin: 0px 10px;
+	display: inline-block;
+	box-sizing: border-box;
+}
+input {
+	font-family: inherit;
+	font-size: 14px;
+	width: 95%;
+	padding: 12px 20px;
+	margin: 8px 10px;
+	display: inline-block;
+	border: 1px solid #ccc;
+	box-sizing: border-box;
+}
+#submit {
+	background-color: #009688;
+	width: 50%;
+	margin-top: 20px;
+	margin-left: 25%;
+	margin-right: 25%;
+	padding: 12px 16px;
+	font-family: inherit;
+	font-size: 14px;
+	font-weight: bold;
+	color: white;
+	border: none;
+	cursor: pointer;
+	border-radius: 5px;
+}
+#submit:hover {
+	background-color: #00b3a1;
+	border-width: 1px;
+	border-color: #009688;
+}
+#head{
+	background-color: #009688;
+	color: white;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-top: 0;
+	text-align: center;
+	font-size: 30px;
+	padding: 10px;
+}
+#title{
+	display: inline-block;
+	width: 80%;
+	background-color: transparent;
+	margin-left: 0px;
+	margin-right: 0px;
+	padding: 0;
+}
+#buttonClose {
+	background-color: #EF5350;
+	height: 35px;
+	width: 35px;
+	float: right;
+	padding: 0;
+	margin-top: 0px;
+	margin-right: 0px;
+	font-family: none;
+	font-size: 20px;
+	line-height: 0.5;
+	color: white;
+	border: none;
+	cursor: pointer;
+	border-radius: 5px;
+}
+#buttonClose:hover {
+	background-color: #f2706e;
+	border-width: 1px;
+	border-color: #EF5350;
+}
+#container {
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+#container > * {
+	width: 320px;
+	height: 240px;
+}

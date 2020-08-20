@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0, user-scalable=1" />
+        <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+        <meta http-equiv="Pragma" content="no-cache" />
+        <meta http-equiv="Expires" content="0" />
+        <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,400i,700,900&display=swap" rel="stylesheet">
+        <title>Success</title>
+    </head>
+    <style>
+        h1 {
+            color: #88B04B;
+            font-family: "Nunito Sans", "Helvetica Neue", sans-serif;
+            font-weight: 900;
+            font-size: 40px;
+            margin: auto;
+        }
+        .icon {
+            background-image: url("/static/checkmark.png");
+            background-repeat: no-repeat;
+            background-size: 250px;
+            height: 250px;
+            width: 250px;
+            margin: 20px;
+        }
+        .card {
+            background: white;
+            padding: 60px;
+            display: flex;
+            flex-direction: column;
+            margin: auto;
+            align-items: center;
+        }
+    </style>
+    <body>
+        <div class="card">
+            <div class="icon"></div>
+            <h1>{{ msg }}</h1> 
+        </div>
+    </body>
+</html>
