@@ -4,11 +4,9 @@
 <h2>Preview</h2>
 <h2>Tools & Libraries Used</h2>
 <ul>
-<b>
-<li>Python - face_recognition - https://github.com/ageitgey/face_recognition</li>
-<li>Python - pickle - for storing serialized data</li>
-<li>Heroku - https://www.heroku.com/</li>
-</b>
+<li><b>Python - face_recognition</b> - https://github.com/ageitgey/face_recognition</li>
+<li><b>Python - pickle</b> - for storing serialized data</li>
+<li><b>Heroku -</b> https://www.heroku.com/</li>
 </ul>
 <strong>Note: </strong>Please use heroku or other such platforms to deploy your application for it to work.
 <h2>Working</h2>
@@ -17,6 +15,7 @@
 <li>Download the entire repository to your local system</li>
 <li>Run any terminal or cmd preferably as Administrator</li>
 <li>Run commands:</li>
+</b>
 <ul>
 <li>git init (provided you have git installed)</li>
 <li>heroku create face-rec-login (please use a diffenent name than mine)</li>
@@ -24,13 +23,10 @@
 <li>git commit -m "add files"</li>
 <li>git push heroku master</li>
 </ul>
-</b>
 </ol>
 <h2>Usage</h2>
 <ul>
-<b>
-<li>To login: Go to link: https://face-rec-login.herokuapp.com</li>
-<li>To register - Go to link: https://face-rec-login.herokuapp.com/register</li>
-</b>
+<li><b>To login:</b> Go to link: https://face-rec-login.herokuapp.com</li>
+<li><b>To register:</b> Go to link: https://face-rec-login.herokuapp.com/register</li>
 </ul>
 Please not: <i>I have not used data validation on email so if you want you can add it in your program. Otherwise please enter email with caution.</i>
