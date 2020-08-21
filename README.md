@@ -1,11 +1,7 @@
-# Login System using Face Recognition
- 
-<h1 align=center>Face Recognition Login System using Flask and face-recognition</h1>
-<h4 align="center">This web application is basically a system which uses face recognition to login to any account. People can use this login application for various websites or web applications. It also has provision for registering face for new entries. 
+<h1>Face Recognition Login System using Flask and face-recognition</h1>
+<h4>This web application is basically a system which uses face recognition to login to any account. People can use this login application for various websites or web applications. It also has provision for registering face for new entries. 
 </h4>
 <h2>Preview</h2>
-<img src="Preview/p1.png">
-<img src="Preview/p2.png">
 <h2>Tools & Libraries Used</h2>
 <ul>
 <b>
