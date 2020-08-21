@@ -19,7 +19,7 @@
 <li>Run commands:</li>
 <ul>
 <li>git init (provided you have git installed)</li>
-<li>heroku create <<your app name>></li>
+<li>heroku create face-rec-login (please use a diffenent name than mine)</li>
 <li>git add .</li>
 <li>git commit -m "add files"</li>
 <li>git push heroku master</li>
@@ -29,8 +29,8 @@
 <h2>Usage</h2>
 <ul>
 <b>
-<li>To login: Go to link: https://<<your app name>>.herokuapp.com</li>
-<li>To register - Go to link: https://<<your app name>>.herokuapp.com/register</li>
+<li>To login: Go to link: https://face-rec-login.herokuapp.com</li>
+<li>To register - Go to link: https://face-rec-login.herokuapp.com/register</li>
 </b>
 </ul>
 Please not: <i>I have not used data validation on email so if you want you can add it in your program. Otherwise please enter email with caution.</i>
